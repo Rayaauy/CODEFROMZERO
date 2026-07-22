@@ -1,65 +1,58 @@
-# 🚀 CODEFROMZERO
+# CODEFROMZERO
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Learn.+Build.+Repeat.;Code+From+Zero+to+Hero.;Welcome+to+CODEFROMZERO!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Learn.+Build.+Repeat.;Code+From+Zero+to+Hero." alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/Rayaauy/CODEFROMZERO?style=for-the-badge">
-  <img src="https://img.shields.io/github/languages/top/Rayaauy/CODEFROMZERO?style=for-the-badge">
-  <img src="https://img.shields.io/github/last-commit/Rayaauy/CODEFROMZERO?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/Rayaauy/CODEFROMZERO?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/Rayaauy/CODEFROMZERO?style=flat-square">
+  <img src="https://img.shields.io/github/languages/top/Rayaauy/CODEFROMZERO?style=flat-square">
+  <img src="https://img.shields.io/github/last-commit/Rayaauy/CODEFROMZERO?style=flat-square">
+  <img src="https://img.shields.io/github/license/Rayaauy/CODEFROMZERO?style=flat-square">
 </p>
 
 ---
 
-# 📖 About
+## About
 
-**CODEFROMZERO** adalah repository yang mendokumentasikan perjalanan belajar pemrograman dari nol hingga mampu membangun aplikasi nyata.
+**CODEFROMZERO** merupakan repository yang berisi dokumentasi perjalanan belajar pemrograman, mulai dari konsep dasar hingga pengembangan aplikasi dan berbagai proyek nyata.
 
-Repository ini berisi berbagai materi, latihan, mini project, hingga project skala lebih besar yang dibuat secara bertahap.
+Repository ini dibuat sebagai tempat untuk:
 
-Tujuan repository ini adalah sebagai:
-
-- 📚 Catatan belajar
-- 💻 Tempat latihan coding
-- 🚀 Portfolio perkembangan
-- 🌍 Open Source Learning Repository
+- Mencatat materi yang dipelajari.
+- Menyimpan latihan dan eksperimen.
+- Mengembangkan mini project dan project.
+- Membangun portfolio secara bertahap.
 
 ---
 
-# 🎯 Learning Roadmap
+## Learning Roadmap
 
-## 🌱 Fundamental
+### Fundamental
 
 - HTML
 - CSS
 - JavaScript
-- Git & GitHub
+- Git
+- GitHub
 - Command Line
 
----
-
-## ⚙️ Programming
+### Programming Languages
 
 - Python
 - PHP
 - C++
 - Java
 
----
-
-## 🗄 Database
+### Database
 
 - MySQL
 - PostgreSQL
 - SQLite
 
----
+### Web Development
 
-## 🌐 Web Development
-
-### Front-End
+**Front-End**
 
 - HTML5
 - CSS3
@@ -69,16 +62,14 @@ Tujuan repository ini adalah sebagai:
 - Vue.js
 - React
 
-### Back-End
+**Back-End**
 
 - PHP Native
 - Laravel
 - Node.js
 - Express.js
 
----
-
-## 🔒 Cyber Security
+### Cyber Security
 
 - Linux
 - Networking
@@ -86,24 +77,21 @@ Tujuan repository ini adalah sebagai:
 - Bug Hunting
 - CTF
 - OWASP Top 10
-- Nmap
 - Burp Suite
 - Wireshark
+- Nmap
 
----
-
-## ☁ Cloud & DevOps
+### Cloud & DevOps
 
 - Docker
 - GitHub Actions
-- Linux Server
 - Nginx
 - Apache
 - VPS Deployment
 
 ---
 
-# 📂 Repository Structure
+## Repository Structure
 
 ```text
 CODEFROMZERO/
@@ -115,7 +103,7 @@ CODEFROMZERO/
 ├── PHP/
 ├── Laravel/
 ├── SQL/
-├── Cpp/
+├── CPP/
 ├── Linux/
 ├── CyberSecurity/
 ├── MiniProject/
@@ -125,10 +113,10 @@ CODEFROMZERO/
 
 ---
 
-# 🚀 Progress
+## Progress
 
-| Topic | Status |
-|--------|--------|
+| Category | Status |
+|----------|:------:|
 | HTML | ✅ |
 | CSS | ✅ |
 | JavaScript | 🔄 |
@@ -138,62 +126,42 @@ CODEFROMZERO/
 | SQL | 🔄 |
 | Linux | 🔄 |
 | Cyber Security | 🔄 |
-| Cloud | ⏳ |
+| Cloud & DevOps | ⏳ |
 
-Legenda:
+**Status**
 
-- ✅ Selesai
-- 🔄 Sedang Dipelajari
-- ⏳ Belum Dimulai
-
----
-
-# 💻 Example
-
-```python
-print("Hello, CODEFROMZERO!")
-```
+- ✅ Completed
+- 🔄 In Progress
+- ⏳ Planned
 
 ---
 
-# 🎯 Goals
+## Goals
 
-- Menguasai Fundamental Programming
-- Membangun Full Stack Web Application
-- Belajar Database Design
-- Memahami Git & GitHub
-- Belajar Linux
-- Mendalami Cyber Security
-- Membangun Portfolio Berkualitas
-- Konsisten Belajar Setiap Hari
-
----
-
-# 🤝 Contributing
-
-Pull Request selalu diterima.
-
-Jika menemukan bug atau memiliki ide baru, silakan buat:
-
-- Issue
-- Pull Request
-- Discussion
+- Master programming fundamentals.
+- Build web applications.
+- Learn database design.
+- Understand Git and GitHub workflows.
+- Explore Linux systems.
+- Learn Cyber Security concepts.
+- Develop a strong software engineering portfolio.
 
 ---
 
-# ⭐ Support
+## Contributing
 
-Jika repository ini bermanfaat, jangan lupa berikan ⭐ pada repository ini.
+Contributions are welcome.
+
+If you find a bug or have suggestions for improvement, feel free to open an Issue or submit a Pull Request.
 
 ---
 
-# 👨‍💻 Author
+## Author
 
 **Hisyam Raya**
 
-GitHub:
-https://github.com/Rayaauy
+GitHub: https://github.com/Rayaauy
 
 ---
 
-> *"Every expert was once a beginner. Start from zero, keep learning, and never stop building."* 🚀
+> *"Every expert was once a beginner. Start from zero, stay consistent, and keep building."*
