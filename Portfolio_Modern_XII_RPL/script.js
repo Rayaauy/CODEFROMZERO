@@ -1,0 +1,1 @@
+const t=["Cyber Security","Backend Developer","Student",""];let i=0,j=0;function type(){if(j<t[i].length){typing.textContent+=t[i][j++];setTimeout(type,100);}else setTimeout(()=>{typing.textContent="";j=0;i=(i+1)%t.length;type();},1200)}type();
