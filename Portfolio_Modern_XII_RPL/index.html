@@ -1,13 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Hisyam Raya</title>
+    <title>Hisyam Raya — Portfolio</title>
 
-    <!-- Google Font -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -22,60 +23,79 @@
 
   <body>
     <!-- ================= NAVBAR ================= -->
-
     <nav>
-      <h2 class="logo">Port<span>folio</span></h2>
+      <a href="#home" class="logo">hisyam<span>@raya</span><span class="cursor">:~$</span></a>
 
-      <ul>
-        <li><a href="#home">Home</a></li>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
-        <li><a href="#about">About</a></li>
-
-        <li><a href="#skills">Skills</a></li>
-
-        <li><a href="#projects">Projects</a></li>
-
-        <li><a href="#contact">Contact</a></li>
+      <ul id="navMenu">
+        <li><a href="#home">--home</a></li>
+        <li><a href="#about">--about</a></li>
+        <li><a href="#skills">--skills</a></li>
+        <li><a href="#projects">--projects</a></li>
+        <li><a href="#contact">--contact</a></li>
       </ul>
     </nav>
 
     <!-- ================= HERO ================= -->
-
     <section id="home" class="hero">
-      <div class="hero-text">
-        <h3>Hello, I'm</h3>
+      <div class="hero-text reveal">
+        <p class="eyebrow">$ whoami</p>
         <h1>Hisyam Raya</h1>
-        <h2><span id="typing"></span></h2>
+        <h2><span id="typing"></span><span class="cursor">_</span></h2>
 
-        <p>
-          Siswa SMK Assyafi'iyah Jakarta yang senang membuat website modern menggunakan <br>HTML, CSS, JavaScript, PHP,  serta MySQL.
+        <p class="lede">
+          Siswa SMK Assyafi'iyah Jakarta yang senang membangun website modern
+          dengan HTML, CSS, JavaScript, PHP, dan MySQL — sambil terus
+          mendalami keamanan siber.
         </p>
 
         <div class="btn-group">
-          <a href="#" class="btn"> Download CV </a>
-
-          <a href="#projects" class="btn btn-outline"> My Project </a>
+          <a href="#" class="btn">Download CV</a>
+          <a href="#projects" class="btn btn-outline">Lihat Proyek</a>
         </div>
       </div>
 
-      <div class="hero-image">
-        <img src="image.jpg" alt="Profile" />
+      <div class="hero-image reveal">
+        <div class="window">
+          <div class="window-bar">
+            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+            <span class="window-title">profile.jpg</span>
+          </div>
+          <div class="window-body">
+            <img src="image.jpg" alt="Foto profil Hisyam Raya" />
+          </div>
+        </div>
       </div>
     </section>
 
     <!-- ================= ABOUT ================= -->
-
-    <section id="about">
+    <section id="about" class="reveal">
+      <p class="eyebrow">$ cat about.txt</p>
       <h2 class="title">About Me</h2>
 
-      <p>
-        Saya adalah seorang siswa SMK Assyafi'iyah Jakarta yang memiliki minat besar dalam pengembangan web. Saya senang membuat website modern menggunakan berbagai teknologi seperti HTML, CSS, JavaScript, PHP, , dan MySQL. Dengan keterampilan ini, saya berkomitmen untuk terus belajar dan mengembangkan kemampuan saya dalam dunia web development.
-      </p>
+      <div class="window about-window">
+        <div class="window-bar">
+          <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+          <span class="window-title">about.txt</span>
+        </div>
+        <div class="window-body">
+          <p>
+            Saya adalah siswa SMK Assyafi'iyah Jakarta dengan minat besar
+            pada pengembangan web. Saya senang membangun website modern
+            menggunakan HTML, CSS, JavaScript, PHP, dan MySQL, dan terus
+            belajar hal baru di bidang web development maupun keamanan
+            siber.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- ================= SKILLS ================= -->
-
-    <section id="skills">
+    <section id="skills" class="reveal">
+      <p class="eyebrow">$ ls skills/</p>
       <h2 class="title">My Skills</h2>
 
       <div class="cards">
@@ -83,57 +103,46 @@
           <i class="fa-brands fa-html5"></i>
           <h3>HTML</h3>
         </div>
-
         <div class="card">
           <i class="fa-brands fa-css3-alt"></i>
           <h3>CSS</h3>
         </div>
-
         <div class="card">
           <i class="fa-brands fa-js"></i>
           <h3>JavaScript</h3>
         </div>
-
         <div class="card">
           <i class="fa-brands fa-php"></i>
           <h3>PHP</h3>
         </div>
-
         <div class="card">
           <i class="fa-solid fa-database"></i>
           <h3>MySQL</h3>
         </div>
-
         <div class="card">
           <i class="fa-brands fa-python"></i>
           <h3>Python</h3>
         </div>
-
         <div class="card">
           <i class="fa-solid fa-code"></i>
           <h3>C++</h3>
         </div>
-
         <div class="card">
-          <i class="fa-solid fa-linux"></i>
+          <i class="fa-brands fa-linux"></i>
           <h3>Linux</h3>
         </div>
-
         <div class="card">
           <i class="fa-solid fa-shield-halved"></i>
           <h3>Cyber Security</h3>
         </div>
-
         <div class="card">
           <i class="fa-solid fa-bug"></i>
           <h3>Penetration Testing</h3>
         </div>
-
         <div class="card">
           <i class="fa-solid fa-network-wired"></i>
           <h3>Network Security</h3>
         </div>
-
         <div class="card">
           <i class="fa-solid fa-magnifying-glass"></i>
           <h3>OSINT</h3>
@@ -141,51 +150,82 @@
       </div>
     </section>
 
-    <!-- ================= PROJECT ================= -->
-
-    <section id="projects">
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="reveal">
+      <p class="eyebrow">$ ls -la projects/</p>
       <h2 class="title">Latest Projects</h2>
 
       <div class="cards">
-        <div class="card">
+        <div class="card project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-virus-slash"></i>
+            <span class="status">stable</span>
+          </div>
           <h3>Sistem Pendeteksi Malware</h3>
-          <br>
-          <p>Code berbasis php mendeteksi malware.</p>
+          <p>Aplikasi berbasis PHP untuk mendeteksi indikasi malware pada file.</p>
         </div>
 
-        <div class="card">
+        <div class="card project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-book"></i>
+            <span class="status">stable</span>
+          </div>
           <h3>Perpustakaan Digital</h3>
-          <br>
-          <p>Aplikasi berbasis Laravel.</p>
+          <p>Aplikasi manajemen perpustakaan berbasis Laravel.</p>
         </div>
 
-        <div class="card">
+        <div class="card project-card">
+          <div class="project-head">
+            <i class="fa-solid fa-globe"></i>
+            <span class="status">stable</span>
+          </div>
           <h3>Portfolio Website</h3>
-          <br>
-          <p>HTML CSS JavaScript Responsive.</p>
+          <p>Website portfolio responsif dengan HTML, CSS, dan JavaScript.</p>
         </div>
-
-        
       </div>
     </section>
 
     <!-- ================= CONTACT ================= -->
-
-    <section id="contact text">
+    <section id="contact" class="reveal">
+      <p class="eyebrow">$ contact --info</p>
       <h2 class="title">Contact Me</h2>
 
-      <div class="contact">
-        <p><i class="fa-solid fa-envelope"></i> hisyamraya9999@gmail.com</p>
+      <div class="window contact-window">
+        <div class="window-bar">
+          <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+          <span class="window-title">contact.json</span>
+        </div>
+        <div class="window-body">
+          <div class="contact">
+            <a href="mailto:hisyamraya9999@gmail.com" class="contact-row">
+              <i class="fa-solid fa-envelope"></i>
+              <span class="key">email</span>
+              <span class="value">hisyamraya9999@gmail.com</span>
+            </a>
 
-        <p><i class="fa-brands fa-whatsapp"></i> 085697650287 </p>
+            <a href="https://wa.me/6285697650287" target="_blank" rel="noopener" class="contact-row">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span class="key">whatsapp</span>
+              <span class="value">0856-9765-0287</span>
+            </a>
 
-        <p><i class="fa-brands fa-github"></i> https://github.com/Rayaauy</p>
+            <a href="https://github.com/Rayaauy" target="_blank" rel="noopener" class="contact-row">
+              <i class="fa-brands fa-github"></i>
+              <span class="key">github</span>
+              <span class="value">github.com/Rayaauy</span>
+            </a>
 
-        <p><i class="fa-brands fa-linkedin"></i> https://www.linkedin.com/in/hisyam-raya-013250317/</p>
+            <a href="https://www.linkedin.com/in/hisyam-raya-013250317/" target="_blank" rel="noopener" class="contact-row">
+              <i class="fa-brands fa-linkedin"></i>
+              <span class="key">linkedin</span>
+              <span class="value">hisyam-raya</span>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <footer>© 2026 Hisyam Raya | Portfolio Website</footer>
+    <footer>© 2026 Hisyam Raya — built with HTML, CSS &amp; JS</footer>
 
     <script src="script.js"></script>
   </body>
